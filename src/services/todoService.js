@@ -9,7 +9,7 @@ async function run(query) {
     throw error
   }
   return data
-}
+}  
 
 export const getTodos = () =>
   run(supabase.from(TABLE).select('*').order('sort_order', { ascending: true }).order('created_at', { ascending: false }))
