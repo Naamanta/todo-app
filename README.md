@@ -1,4 +1,4 @@
-# Todo List
+# todo-app
 
 A React + Vite todo app backed by Supabase (PostgreSQL). Create, edit, delete, complete, search, filter and drag-to-reorder tasks; everything persists to the database.
 
